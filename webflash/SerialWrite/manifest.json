@@ -1,0 +1,15 @@
+{
+  "name": "BMS Add On HV5.2 & EV1.0 || RoyalEVCloud",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "SerialWrite.ino.bin", "offset": 65536 },
+        { "path": "SerialWrite.ino.bootloader.bin", "offset": 4096 },
+        { "path": "SerialWrite.ino.partitions.bin", "offset": 32768 }
+      ]
+    }
+  ]
+}
